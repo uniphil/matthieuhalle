@@ -1,0 +1,65 @@
+# Multi-line strings will be concatenated with a space replacing the newlines,
+# provided the next line matches the previous indentation.
+# It's good form to wrap lines at 80 characters, but this is not enforced.
+# Always indent with spaces.
+
+window:
+    title: Margraue (2012)
+
+header:
+    title: Margraue
+    byline: a film by Matthieu Halle # TODO: fix e accent (&code?)
+    vimeo_url: http://player.vimeo.com/video/56644170
+
+photos:
+    thumb_postfix: _small
+    extension: .jpg
+    images:
+        -
+            title: White Intro
+            alt: Thumbnail of White Intro
+            src: white
+        -
+            title: Margraue at his desk
+            alt: Picture of Margraue at his desk
+            src: margraue_desk
+
+synopsis:
+    title: Synopsis # leave capital-case
+    content: >
+        Privileged with knowledge, Margraue assumes the role of school teacher
+        in a post-apocalyptic world deprived of digital information...or so his
+        story goes...
+
+credits:
+    - >
+        "MARGRAUE" a film by MATTHIEU HALLE with DAVID CHRISTOPHER, MIKEL
+        WALL, JESSICA MCLEOD, RYAN LEVIS, FELICITY BAKER, CLAIRE BONDERUD,
+        COLLEEN CAMPBELL, KATHERINE FLITTON, MARCUS GREEN, HANNA KYLA-JUNNILA,
+        AMIR LAAL, NICOLE MATTHEWS, DAVID MORIARTY-SCHIEVENS, CIA ROLFE, GEENA
+        ROSS, FRASER SIMPSON, LEANORA SKAGGS, LAURA-JANE TRESIDDER, TYNAN VAN
+        WYK
+    - >
+        b&w cinematography KARL SCHOEPP colour cinematography and sound
+        PHILIP SCHLEIHAUF steadicam DANI ZAVICEANU crew KENNY BROWN, MITCH CRAM,
+        MICHAEL GRESHAM, DANIELLE HALLE, ZARA VAN DE KAMP, KATHERINE MACGREGOR,
+        LOGAN SMITH, AMANDA VERHAGEN, BRIAN VAN WYK, TYNAN VAN WYK
+    - >
+        director/writer/producer MATTHIEU HALLE
+
+footer:
+    details:
+        - Margraue (2012)
+        - English
+        - Canadian
+        - 70 mins
+        - "B&W/Colour" # quotes to escape the & won't render
+        - 1.78:1
+        - Stereo
+    links:
+        -
+            text: imdb
+            href: http://www.imdb.com/title/tt2150476
+        -
+            text: contact
+            href: "mailto:mdmhalle@gmail.com"

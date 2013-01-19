@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<section id="top">
+    <header>
+        <h1>{{ header.title }}</h1>
+        <p>{{ header.byline }}</p>
+    </header>
+    <iframe
+        src="{{ header.vimeo_url }}"
+        width="768" height="432" frameborder="0"
+        webkitAllowFullScreen mozallowfullscreen allowFullScreen >
+    </iframe>
+</section>
+
+<section id="photos">
+    <ul>
+        {% for image in photos.images %}
+            <li>{{ image.title }}</li>
+        {% endfor %}
+    </ul>
+</section>
+
+<section id="synopsis">
+    <h2>{{ synopsis.title }}</h2>
+    <p>{{ synopsis.content }}</p>
+</section>
+
+<section id="credits">
+    {% for credit in credits %}
+        <p>{{ credit }}</p>
+    {% endfor %}
+</section>
+
+<section id="footer">
+    <p class="footer-details">{{ footer.details|join(' - ') }}</p>
+    <p class="footer-links">
+        {% for link in footer.links %}
+            <a href="{{ link.href }}">{{ link.text }}</a>
+            {% if not loop.last %} - {% endif %}
+        {% endfor %}
+    </p>
+</section>
+
+{% endblock %}
