@@ -17,7 +17,13 @@
 <section id="photos">
     <ul>
         {% for image in photos.images %}
-            <li>{{ image.title }}</li>
+            <li>
+                <a href="/static/img/{{ image.src }}{{ photos.extension }}">
+                    <img src="/static/img/{{ image.src }}{{ photos.thumb_postfix }}{{ photos.extension }}"
+                    title="{{ image.title }}"
+                    alt="{{ image.alt }}" />
+                </a>
+            </li>
         {% endfor %}
     </ul>
 </section>
