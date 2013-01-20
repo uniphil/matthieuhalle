@@ -21,15 +21,11 @@ photos:
         -
             title: Thumbnail
             alt: Thumbnail
-            src: "01"
-        -
-            title: Thumbnail
-            alt: Thumbnail
             src: "02"
         -
             title: Thumbnail
             alt: Thumbnail
-            src: "03.1"
+            src: "03"
         -
             title: Thumbnail
             alt: Thumbnail
@@ -50,6 +46,10 @@ photos:
             title: Thumbnail
             alt: Thumbnail
             src: "08"
+        -
+            title: Thumbnail
+            alt: Thumbnail
+            src: "09"
 
 synopsis:
     title: Synopsis # leave capital-case
