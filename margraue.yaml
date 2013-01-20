@@ -2,13 +2,16 @@
 # provided the next line matches the previous indentation.
 # It's good form to wrap lines at 80 characters, but this is not enforced.
 # Always indent with spaces.
+# Images go in static/img/image.jpg
 
 window:
     title: Margraue (2012)
+    description: a film by Matthieu Hallé # won't really show up anywhere
+    favicon: favicon.png
 
 header:
-    title: Margraue
-    byline: a film by Matthieu Halle # TODO: fix e accent (&code?)
+    title: Margraue # leave titles capital-case
+    byline: a film by Matthieu Hallé
     vimeo_url: http://player.vimeo.com/video/56644170
 
 photos:
@@ -16,13 +19,37 @@ photos:
     extension: .jpg
     images:
         -
-            title: White Intro
-            alt: Thumbnail of White Intro
-            src: white
+            title: Thumbnail
+            alt: Thumbnail
+            src: "01"
         -
-            title: Margraue at his desk
-            alt: Picture of Margraue at his desk
-            src: margraue_desk
+            title: Thumbnail
+            alt: Thumbnail
+            src: "02"
+        -
+            title: Thumbnail
+            alt: Thumbnail
+            src: "03"
+        -
+            title: Thumbnail
+            alt: Thumbnail
+            src: "04"
+        -
+            title: Thumbnail
+            alt: Thumbnail
+            src: "05"
+        -
+            title: Thumbnail
+            alt: Thumbnail
+            src: "06"
+        -
+            title: Thumbnail
+            alt: Thumbnail
+            src: "07"
+        -
+            title: Thumbnail
+            alt: Thumbnail
+            src: "08"
 
 synopsis:
     title: Synopsis # leave capital-case
@@ -33,7 +60,7 @@ synopsis:
 
 credits:
     - >
-        "MARGRAUE" a film by MATTHIEU HALLE with DAVID CHRISTOPHER, MIKEL
+        "MARGRAUE" a film by MATTHIEU HALLÉ with DAVID CHRISTOPHER, MIKEL
         WALL, JESSICA MCLEOD, RYAN LEVIS, FELICITY BAKER, CLAIRE BONDERUD,
         COLLEEN CAMPBELL, KATHERINE FLITTON, MARCUS GREEN, HANNA KYLA-JUNNILA,
         AMIR LAAL, NICOLE MATTHEWS, DAVID MORIARTY-SCHIEVENS, CIA ROLFE, GEENA
@@ -42,10 +69,10 @@ credits:
     - >
         b&w cinematography KARL SCHOEPP colour cinematography and sound
         PHILIP SCHLEIHAUF steadicam DANI ZAVICEANU crew KENNY BROWN, MITCH CRAM,
-        MICHAEL GRESHAM, DANIELLE HALLE, ZARA VAN DE KAMP, KATHERINE MACGREGOR,
+        MICHAEL GRESHAM, DANIELLE HALLÉ, ZARA VAN DE KAMP, KATHERINE MACGREGOR,
         LOGAN SMITH, AMANDA VERHAGEN, BRIAN VAN WYK, TYNAN VAN WYK
     - >
-        director/writer/producer MATTHIEU HALLE
+        director/writer/producer MATTHIEU HALLÉ
 
 footer:
     details:

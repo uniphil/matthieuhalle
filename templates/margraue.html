@@ -9,7 +9,7 @@
     </header>
     <iframe
         src="{{ header.vimeo_url }}"
-        width="768" height="432" frameborder="0"
+        width="912" height="432" frameborder="0"
         webkitAllowFullScreen mozallowfullscreen allowFullScreen >
     </iframe>
 </section>
@@ -34,9 +34,11 @@
 </section>
 
 <section id="credits">
+    <hr class="before" />
     {% for credit in credits %}
         <p>{{ credit }}</p>
     {% endfor %}
+    <hr class="after" />
 </section>
 
 <section id="footer">
