@@ -12,10 +12,8 @@ body {
     position: relative;
 }
 
-.js header {
-    position: absolute;
-    top: 1rem;
-    left: 0;
+header {
+    margin: 1.667rem 0;
 }
 header h1 {
     font-size: 1.667rem;
