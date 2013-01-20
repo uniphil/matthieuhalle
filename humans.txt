@@ -1,0 +1,19 @@
+# TEAM
+
+    Philip Schleihauf - Developer - @unicyclephil
+    Matthieu Halle - Designer - mdmhalle@gmail.com
+
+
+# THANKS
+
+    world
+
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    HTML5Doctor Reset CSS
+    jQuery
+    Flask, PyYaml
+    Heroku, GitHub -> https://github.com/uniphil/matthieuhalle
+    Editor: SublimeText 2
