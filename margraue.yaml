@@ -14,6 +14,12 @@ header:
     byline: a film by Matthieu Hallé
     vimeo_url: http://player.vimeo.com/video/56644170
 
+screening:
+    hidden: false
+    what: "Premier Screening: Feb 21, 2015"
+    where: 7pm at the Vic Theater (808 Douglas st)
+    href: http://goo.gl/maps/o6gm0
+
 photos:
     thumb_postfix: _small
     extension: .jpg

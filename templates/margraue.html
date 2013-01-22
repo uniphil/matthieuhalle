@@ -4,8 +4,16 @@
 
 <section id="top">
     <header>
-        <h1>{{ header.title }}</h1>
-        <p>{{ header.byline }}</p>
+        <div id="page-title">
+            <h1>{{ header.title }}</h1>
+            <p>{{ header.byline }}</p>
+        </div>
+        {% if not screening.hidden %}
+            <div id="screening">
+                <p>{{ screening.what }}</p>
+                <p><a href="{{ screening.href }}">{{ screening.where }}</a></p>
+            </div>
+        {% endif %}
     </header>
     <iframe
         src="{{ header.vimeo_url }}"
