@@ -15,11 +15,14 @@
             </div>
         {% endif %}
     </header>
-    <iframe
-        src="{{ header.vimeo_url }}"
-        width="912" height="512" frameborder="0"
-        webkitAllowFullScreen mozallowfullscreen allowFullScreen >
-    </iframe>
+    <div id="big-box">
+        <div id="photo-overlay"></div>
+        <iframe
+            src="{{ header.vimeo_url }}"
+            width="912" height="512" frameborder="0"
+            webkitAllowFullScreen mozallowfullscreen allowFullScreen >
+        </iframe>
+    </div>
 </section>
 
 <section id="photos">

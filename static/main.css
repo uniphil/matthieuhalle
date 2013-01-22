@@ -37,8 +37,34 @@ header #screening {
     font-style: italic;
 }
 
-iframe {
+#big-box {
     clear: both;
+    position: relative;
+}
+#photo-overlay {
+    display: none;
+}
+.js #big-box iframe {
+    z-index: -1;
+}
+.js #big-box #photo-overlay {
+    z-index: 1;
+}
+.js #photo-overlay.visible{
+    display: block;
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 
