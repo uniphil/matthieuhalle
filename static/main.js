@@ -5,10 +5,11 @@ $(document).ready(function() {
     $('#photos img').hover(function() {
         var full = $(this).parent().attr('href');
         $('#photo-overlay')
-            .css('background-image', 'url("' + full + '"")')
+            .css('background-image', 'url("' + full + '")')
             .addClass('visible');
     }, function() {
-        $('#photo-overlay').removeClass('visible');
+        $('#photo-overlay')
+            .removeClass('visible');
     });
 
 });
