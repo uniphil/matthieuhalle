@@ -7,7 +7,7 @@
 window:
     title: Margraue (2012)
     description: a film by Matthieu Hallé # won't really show up anywhere
-    favicon: favicon.png
+    favicon: margraue-favicon.png
 
 header:
     title: Margraue # leave titles capital-case

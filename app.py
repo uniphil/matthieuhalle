@@ -20,10 +20,16 @@ def margraue():
     return render_template('margraue.html', **context)
 
 
+@app.route('/margraue/favicon.png')
+def icon():
+    with open('margraue-icon.png', 'rb') as icon:
+        return Response(icon.read(), mimetype='image/png')
+
 @app.route('/humans.txt')
 def humans():
     with open('humans.txt') as humanstxt:
         return Response(humanstxt.read(), mimetype='text/plain')
+
 
 
 if __name__ == '__main__':
