@@ -15,8 +15,8 @@ header:
     vimeo_url: http://player.vimeo.com/video/56644170
 
 screening:
-    hidden: true
-    what: "Premier Screening: Feb 21, 2015"
+    hidden: false
+    what: "Premiere Screening: Feb 21, 2013"
     where: 7pm at The Vic Theatre (808 Douglas st)
     href: http://goo.gl/maps/o6gm0
 
