@@ -16,4 +16,5 @@
     jQuery
     Flask, PyYaml
     Heroku, GitHub -> https://github.com/uniphil/matthieuhalle
+    Koi Deploy
     Editor: SublimeText 2
