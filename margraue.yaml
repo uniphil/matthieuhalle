@@ -5,7 +5,7 @@
 # Images go in static/img/image.jpg
 
 window:
-    title: Margraue (2012)
+    title: Margraue (2013)
     description: a film by Matthieu Hallé # won't really show up anywhere
     favicon: margraue-favicon.png
 
@@ -82,7 +82,7 @@ credits:
 
 footer:
     details:
-        - Margraue (2012)
+        - Margraue (2013)
         - English
         - Canadian
         - 70 mins
