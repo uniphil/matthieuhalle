@@ -3,4 +3,5 @@ Jinja2==2.6
 PyYAML==3.10
 Werkzeug==0.8.3
 argparse==1.2.1
+gunicorn==0.17.2
 wsgiref==0.1.2
