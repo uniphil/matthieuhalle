@@ -61,8 +61,7 @@ synopsis:
     title: Synopsis # leave capital-case
     content: >
         Privileged with knowledge, Margraue assumes the role of school teacher
-        in a post-apocalyptic world deprived of digital information...or so his
-        story goes...
+        in a post-apocalyptic world deprived of digital information.
 
 credits:
     - >
@@ -84,7 +83,6 @@ footer:
     details:
         - Margraue (2013)
         - English
-        - Canadian
         - 65 mins
         - "B&W/Colour" # quotes to escape the & won't render
         - 1.78:1
